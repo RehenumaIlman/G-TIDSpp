@@ -1,0 +1,527 @@
+[
+  {
+    "sample_id": 913809,
+    "true_class": "DoS TCP Flood",
+    "predicted_class": "DoS TCP Flood",
+    "confidence": 0.7129360437393188,
+    "alert": {
+      "clinical_summary": "Suspected DoS TCP Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected DoS TCP Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "DoS TCP Flood",
+      "confidence": 0.7129360437393188,
+      "top_indicators": [
+        "Total Fwd Packet_log",
+        "Dst Port",
+        "Flow Duration"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:15.104488",
+      "summary": "A potential Denial of Service (DoS) TCP Flood attack has been detected with a confidence level of 0.71. Key indicators include anomalies in Total Forward Packet log, Destination Port, and Flow Duration."
+    }
+  },
+  {
+    "sample_id": 987171,
+    "true_class": "DoS TCP Flood",
+    "predicted_class": "DoS TCP Flood",
+    "confidence": 0.7248196601867676,
+    "alert": {
+      "clinical_summary": "Suspected DoS TCP Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected DoS TCP Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "DoS TCP Flood",
+      "confidence": 0.7248196601867676,
+      "top_indicators": [
+        "Total Fwd Packet_log",
+        "Dst Port",
+        "Flow Duration"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:17.650531",
+      "summary": "A potential Denial of Service (DoS) TCP Flood attack has been detected with a confidence level of 0.72. Key indicators include anomalies in Total Forward Packet log, Destination Port, and Flow Duration."
+    }
+  },
+  {
+    "sample_id": 362610,
+    "true_class": "DoS TCP Flood",
+    "predicted_class": "DoS TCP Flood",
+    "confidence": 1.0,
+    "alert": {
+      "clinical_summary": "Suspected DoS TCP Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected DoS TCP Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "DoS TCP Flood",
+      "confidence": 1.0,
+      "top_indicators": [
+        "Fwd IAT Min",
+        "Flow IAT Min",
+        "Flow IAT Mean"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:20.154380",
+      "summary": "A Denial of Service (DoS) TCP Flood attack has been detected with high confidence (1.00). Key indicators include Forward Inter-Arrival Time Minimum, Flow Inter-Arrival Time Minimum, and Flow Inter-Arrival Time Mean."
+    }
+  },
+  {
+    "sample_id": 1449438,
+    "true_class": "MQTT DDoS Publish Flood",
+    "predicted_class": "MQTT DDoS Publish Flood",
+    "confidence": 0.8613585233688354,
+    "alert": {
+      "clinical_summary": "Suspected MQTT DDoS Publish Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected MQTT DDoS Publish Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "MQTT DDoS Publish Flood",
+      "confidence": 0.8613585233688354,
+      "top_indicators": [
+        "Fwd Seg Size Min",
+        "Dst Port_log",
+        "Flow Duration_log"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:22.599037",
+      "summary": "A potential MQTT DDoS Publish Flood attack has been detected with a confidence level of 0.86. Key indicators include minimum forward segment size, destination port log, and flow duration log."
+    }
+  },
+  {
+    "sample_id": 1592324,
+    "true_class": "MQTT DDoS Publish Flood",
+    "predicted_class": "MQTT DDoS Publish Flood",
+    "confidence": 0.9999999403953552,
+    "alert": {
+      "clinical_summary": "Suspected MQTT DDoS Publish Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected MQTT DDoS Publish Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "MQTT DDoS Publish Flood",
+      "confidence": 0.9999999403953552,
+      "top_indicators": [
+        "RST Flag Count",
+        "Flow Duration_log",
+        "Src Port_log"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:28.154817",
+      "summary": "A potential MQTT DDoS Publish Flood attack has been detected with high confidence (1.00). Key indicators include RST Flag Count, Flow Duration_log, and Src Port_log."
+    }
+  },
+  {
+    "sample_id": 1500948,
+    "true_class": "MQTT DDoS Publish Flood",
+    "predicted_class": "MQTT DDoS Publish Flood",
+    "confidence": 0.8099337816238403,
+    "alert": {
+      "clinical_summary": "Suspected MQTT DDoS Publish Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected MQTT DDoS Publish Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "MQTT DDoS Publish Flood",
+      "confidence": 0.8099337816238403,
+      "top_indicators": [
+        "RST Flag Count",
+        "Src Port_log",
+        "Src Port_sqrt"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:30.042825",
+      "summary": "An MQTT DDoS Publish Flood attack has been detected with a confidence level of 0.81. Key indicators include RST Flag Count, Src Port_log, and Src Port_sqrt."
+    }
+  },
+  {
+    "sample_id": 764835,
+    "true_class": "DoS TCP Flood",
+    "predicted_class": "DoS TCP Flood",
+    "confidence": 1.0,
+    "alert": {
+      "clinical_summary": "Suspected DoS TCP Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected DoS TCP Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "DoS TCP Flood",
+      "confidence": 1.0,
+      "top_indicators": [
+        "Flag_Diversity",
+        "Packet_Imbalance",
+        "RST Flag Count"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:32.815850",
+      "summary": "A Denial of Service (DoS) TCP Flood attack has been detected with high confidence. Key indicators include Flag Diversity, Packet Imbalance, and a high RST Flag Count."
+    }
+  },
+  {
+    "sample_id": 242294,
+    "true_class": "DoS TCP Flood",
+    "predicted_class": "DoS TCP Flood",
+    "confidence": 0.7541494369506836,
+    "alert": {
+      "clinical_summary": "Suspected DoS TCP Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected DoS TCP Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "DoS TCP Flood",
+      "confidence": 0.7541494369506836,
+      "top_indicators": [
+        "Fwd IAT Min",
+        "Flow IAT Min",
+        "Flow IAT Mean"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:35.433091",
+      "summary": "A potential Denial of Service (DoS) TCP Flood attack has been detected with a confidence level of 0.75. Key indicators include Forward Inter-Arrival Time Minimum, Flow Inter-Arrival Time Minimum, and Flow Inter-Arrival Time Mean."
+    }
+  },
+  {
+    "sample_id": 1904326,
+    "true_class": "MQTT DoS Connect Flood",
+    "predicted_class": "MQTT DoS Connect Flood",
+    "confidence": 0.7791374325752258,
+    "alert": {
+      "clinical_summary": "Suspected MQTT DoS Connect Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected MQTT DoS Connect Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "MQTT DoS Connect Flood",
+      "confidence": 0.7791374325752258,
+      "top_indicators": [
+        "FWD Init Win Bytes",
+        "Fwd Seg Size Min",
+        "Dst Port_log"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:37.417845",
+      "summary": "A potential MQTT DoS Connect Flood attack has been detected with a confidence level of 0.78. Key indicators include anomalies in FWD Init Win Bytes, Fwd Seg Size Min, and Dst Port_log."
+    }
+  },
+  {
+    "sample_id": 1830699,
+    "true_class": "MQTT DoS Connect Flood",
+    "predicted_class": "MQTT DoS Connect Flood",
+    "confidence": 0.9931795597076416,
+    "alert": {
+      "clinical_summary": "Suspected MQTT DoS Connect Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected MQTT DoS Connect Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "MQTT DoS Connect Flood",
+      "confidence": 0.9931795597076416,
+      "top_indicators": [
+        "Flow Duration_log",
+        "Dst Port_log",
+        "Flag_Diversity"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:40.223065",
+      "summary": "A high-confidence MQTT DoS Connect Flood attack has been detected, characterized by unusual flow duration, destination port activity, and flag diversity."
+    }
+  },
+  {
+    "sample_id": 672338,
+    "true_class": "DoS TCP Flood",
+    "predicted_class": "DoS TCP Flood",
+    "confidence": 1.0,
+    "alert": {
+      "clinical_summary": "Suspected DoS TCP Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected DoS TCP Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "DoS TCP Flood",
+      "confidence": 1.0,
+      "top_indicators": [
+        "Src Port",
+        "Src Port_sqrt",
+        "Src Port_log"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:41.869430",
+      "summary": "A Denial of Service (DoS) TCP Flood attack has been detected with high confidence (1.00). Key indicators include Src Port, Src Port_sqrt, and Src Port_log."
+    }
+  },
+  {
+    "sample_id": 1607242,
+    "true_class": "MQTT DDoS Publish Flood",
+    "predicted_class": "MQTT DDoS Publish Flood",
+    "confidence": 0.9999999403953552,
+    "alert": {
+      "clinical_summary": "Suspected MQTT DDoS Publish Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected MQTT DDoS Publish Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "MQTT DDoS Publish Flood",
+      "confidence": 0.9999999403953552,
+      "top_indicators": [
+        "RST Flag Count",
+        "Flow Duration_log",
+        "Src Port_log"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:44.205680",
+      "summary": "A high-confidence MQTT DDoS Publish Flood attack has been detected, characterized by elevated RST Flag Count, prolonged Flow Duration, and unusual Source Port activity."
+    }
+  },
+  {
+    "sample_id": 1530151,
+    "true_class": "MQTT DDoS Publish Flood",
+    "predicted_class": "MQTT DDoS Publish Flood",
+    "confidence": 0.7595831155776978,
+    "alert": {
+      "clinical_summary": "Suspected MQTT DDoS Publish Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected MQTT DDoS Publish Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "MQTT DDoS Publish Flood",
+      "confidence": 0.7595831155776978,
+      "top_indicators": [
+        "Packets_per_Second",
+        "Flow Duration_log",
+        "RST Flag Count"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:46.709235",
+      "summary": "A potential MQTT DDoS Publish Flood attack has been detected with a confidence level of 0.76. Key indicators include high packets per second, extended flow duration, and increased RST flag count."
+    }
+  },
+  {
+    "sample_id": 1417615,
+    "true_class": "DoS TCP Flood",
+    "predicted_class": "DoS TCP Flood",
+    "confidence": 0.6877275705337524,
+    "alert": {
+      "clinical_summary": "Suspected DoS TCP Flood activity detected in IoMT traffic",
+      "technical_summary": "Model detected DoS TCP Flood based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "DoS TCP Flood",
+      "confidence": 0.6877275705337524,
+      "top_indicators": [
+        "Flow IAT Max",
+        "Src Port",
+        "Flow IAT Std"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:48.320386",
+      "summary": "A potential Denial of Service (DoS) TCP Flood attack has been detected with a confidence level of 0.69. Key indicators include Flow IAT Max, Source Port, and Flow IAT Standard Deviation."
+    }
+  },
+  {
+    "sample_id": 2283345,
+    "true_class": "Recon Port Scan",
+    "predicted_class": "Recon Port Scan",
+    "confidence": 0.8404884934425354,
+    "alert": {
+      "clinical_summary": "Suspected Recon Port Scan activity detected in IoMT traffic",
+      "technical_summary": "Model detected Recon Port Scan based on discriminative traffic features and temporal graph patterns",
+      "attack_class": "Recon Port Scan",
+      "confidence": 0.8404884934425354,
+      "top_indicators": [
+        "Packet_Imbalance",
+        "Src Port",
+        "Total Fwd Packet_log"
+      ],
+      "affected_devices": [
+        "142.251.111.188",
+        "18.214.72.44",
+        "54.242.226.75"
+      ],
+      "graph_evidence": [
+        "Repeated communication patterns observed",
+        "Protocol-consistent traffic bursts detected"
+      ],
+      "recommended_actions": [
+        "Isolate device from network",
+        "Notify security team",
+        "Monitor for further anomalies"
+      ],
+      "human_review_required": true,
+      "llm_used": true,
+      "timestamp": "2026-03-17T14:54:51.193242",
+      "summary": "A reconnaissance port scan attack has been detected with a confidence level of 0.84. Key indicators include packet imbalance, source port anomalies, and irregularities in the total forward packet log."
+    }
+  }
+]

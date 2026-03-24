@@ -1,0 +1,68 @@
+{
+  "execution_summary": {
+    "start_time": "2026-03-17T13:12:23.224733",
+    "end_time": "2026-03-17T14:54:55.612226",
+    "execution_time_seconds": 6152.387477,
+    "pipeline_version": "G-TIDS++ with ALL bug fixes",
+    "status": "COMPLETE"
+  },
+  "performance_metrics": {
+    "transformer_only": {
+      "accuracy": 0.9575693683277047,
+      "macro_f1": 0.5349456899135859
+    },
+    "final_system": {
+      "accuracy": 0.9634029261963372,
+      "macro_f1": 0.6092759254943243,
+      "weighted_f1": 0.9600152965454615,
+      "includes_rf_gate": true,
+      "includes_llm_inference": false
+    },
+    "calibration": {
+      "expected_calibration_error": 0.1427687128640439
+    }
+  },
+  "data_statistics": {
+    "original_samples": 2548473,
+    "training_samples_real": 1783931,
+    "training_samples_synthetic": 56382,
+    "validation_samples": 382271,
+    "test_samples": 382271,
+    "augmentation_applied": true,
+    "augmentation_ratio": 0.031605482499042846,
+    "features_used": 28,
+    "classes": [
+      "Benign Traffic",
+      "DDoS ICMP Flood",
+      "DDoS UDP Flood",
+      "DoS ICMP Flood",
+      "DoS TCP Flood",
+      "DoS UDP Flood",
+      "MITM ARP Spoofing",
+      "MQTT DDoS Publish Flood",
+      "MQTT DoS Connect Flood",
+      "MQTT DoS Publish Flood",
+      "MQTT Malformed",
+      "Recon OS Scan",
+      "Recon Ping Sweep",
+      "Recon Port Scan",
+      "Recon Vulnerability Scan"
+    ]
+  },
+  "academic_integrity": {
+    "tgnn_uses_real_data_only": true,
+    "transformer_uses_real_synthetic": true,
+    "no_data_leakage": true,
+    "proper_calibration_metrics": true,
+    "reproducible_results": true
+  },
+  "critical_fixes_applied": {
+    "fix_1": "Global node space for TGNN (consistent node indices)",
+    "fix_2": "Gradient accumulation for TGNN (no OOM)",
+    "fix_3": "Fixed validation sampler logic",
+    "fix_4": "Down-weighted synthetic samples in Transformer",
+    "fix_5": "TGNN window labeling uses frequency \u00d7 rarity",
+    "fix_6": "PyTorch \u22652.6 safe checkpoint loading",
+    "fix_7": "All original fixes maintained"
+  }
+}
